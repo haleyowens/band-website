@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/index.min.js"></script>
+  </head>
+  <body>
+    <nav
+      class="relative w-full flex flex-wrap items-center justify-between py-4 bg-gray-100 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light"
+    >
+      <div
+        class="container-fluid w-full flex flex-wrap items-center justify-between px-6"
+      >
+        <button
+          class="navbar-toggler text-gray-500 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="bars"
+            class="w-6"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              fill="currentColor"
+              d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+            ></path>
+          </svg>
+        </button>
+        <div
+          class="collapse navbar-collapse flex-grow items-center"
+          id="navbarSupportedContent"
+        >
+          <a class="text-xl text-black" href="index.html">
+            <img
+              src="images/PJ-logo-black.png"
+              style="width: 150px; height: auto; padding-right: 50px"
+          /></a>
+          <!-- Left links -->
+          <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
+            <li class="nav-item px-2">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item pr-2">
+              <a
+                class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+                href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item pr-2">
+              <a
+                class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+                href="music.html"
+                >Music</a
+              >
+            </li>
+            <li class="nav-item pr-2">
+              <a
+                class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+                href="tour.html"
+                >Tour</a
+              >
+            </li>
+            <li class="nav-item pr-2">
+              <a
+                class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+                href="videos.html"
+                >Videos</a
+              >
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+    </nav>
+    <img
+      src="images/about-home.png"
+      class="max-w-100% h-auto mb-9"
+      alt="hero image"
+    />
+    <div class="flex flex-wrap justify-center">
+      <div class="flex justify-center">
+        <div
+          class="flex flex-col md:flex-row md:max-w-xl p-4 rounded-lg bg-white shadow-lg"
+        >
+          <img
+            class="w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
+            src="images/eddie.jpg"
+            alt="eddie"
+          />
+          <div class="p-6 flex flex-col justify-start">
+            <h5 class="text-gray-900 text-xl font-medium mb-2">EDDIE VEDDER</h5>
+            <p class="text-gray-700 text-base mb-4">
+              Eddie Vedder has served as Pearl Jam’s frontman since 1990. His
+              debut solo release was the 2007 soundtrack album for the film Into
+              the Wild for which Vedder won a Golden Globe for the song
+              “Guaranteed.” In 2012, Vedder’s sophomore solo album, Ukulele
+              Songs, received a Grammy nomination for Best Folk Album.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <div
+          class="flex flex-col md:flex-row md:max-w-xl p-4 rounded-lg bg-white shadow-lg"
+        >
+          <img
+            class="w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
+            src="images/mike.jpg"
+            alt="eddie"
+          />
+          <div class="p-6 flex flex-col justify-start">
+            <h5 class="text-gray-900 text-xl font-medium mb-2">
+              MIKE MCCREADY
+            </h5>
+            <p class="text-gray-700 text-base mb-4">
+              Mike McCready is the lead guitarist for and one of the founding
+              members of Pearl Jam. He has also been a member of Temple of the
+              Dog, Mad Season, The Rockfords and Levee Walkers. Additionally,
+              McCready plays with friends in Flight to Mars, a UFO tribute band
+              that hosts charity events for the Crohn's and Colitis Foundation's
+              Camp Oasis program and the Jennifer Jaff Care Line.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-wrap justify-center">
+      <div class="flex justify-center">
+        <div
+          class="flex flex-col md:flex-row md:max-w-xl p-4 rounded-lg bg-white shadow-lg"
+        >
+          <img
+            class="w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
+            src="images/matt.jpg"
+            alt="eddie"
+          />
+          <div class="p-6 flex flex-col justify-start">
+            <h5 class="text-gray-900 text-xl font-medium mb-2">MATT CAMERON</h5>
+            <p class="text-gray-700 text-base mb-4">
+              Matt Cameron is the drummer for Pearl Jam and Soundgarden. Cameron
+              has also performed as a member of bands Skin Yard, Hater, Temple
+              of the Dog, Wellwater Conspiracy, Harrybu McCage and Ten
+              Commandos. Additionally, Matt has lent his drumming talents to
+              projects from fellow artists including Peter Frampton, Geddy Lee
+              and Queens of the Stone Age, Janet Weiss and more.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <div
+          class="flex flex-col md:flex-row md:max-w-xl p-4 rounded-lg bg-white shadow-lg"
+        >
+          <img
+            class="w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
+            src="images/jeff.jpg"
+            alt="eddie"
+          />
+          <div class="p-6 flex flex-col justify-start">
+            <h5 class="text-gray-900 text-xl font-medium mb-2">JEFF AMENT</h5>
+            <p class="text-gray-700 text-base mb-4">
+              Jeff Ament is the bass guitarist for and one of the founding
+              members of Pearl Jam. He has also performed as a member of bands
+              Green River, Mother Love Bone, Temple of the Dog, War Babies,
+              Three Fish, Tres Mts., Deranged Diction and RNDM. Additionally,
+              Ament has released several solo albums and projects including Tone
+              and While My Heart Beats. A lifelong skateboarder, Ament has
+              helped fund and build over a dozen skateparks across Montana and
+              South Dakota, many on Native American reservations.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <div
+          class="flex flex-col md:flex-row md:max-w-xl p-4 rounded-lg bg-white shadow-lg"
+        >
+          <img
+            class="w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
+            src="images/stone.jpg"
+            alt="eddie"
+          />
+          <div class="p-6 flex flex-col justify-start">
+            <h5 class="text-gray-900 text-xl font-medium mb-2">
+              STONE GOSSARD
+            </h5>
+            <p class="text-gray-700 text-base mb-4">
+              Stone Gossard is the rhythm guitarist for and one of the founding
+              members of Pearl Jam. He has also performed as a member of bands
+              March of Crimes, Green River, Mother Love Bone, Temple of the Dog
+              and Brad. Additionally, Gossard has released several solo albums
+              and projects including Bayleaf and Moonlander. Stone has long been
+              an environmental activist. His work to this end includes
+              spearheading Pearl Jam's carbon mitigation program and serving as
+              a member of the board of directors at the Wild Salmon Center.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="text-5xl font-bold text-center mt-[200px] mb-20">
+      FOLLOW <br />
+      US ON
+    </p>
+
+    <div class="flex flex-col justify-center">
+      <div>
+        <img src="images/instagram.png" class="p-6 max-w-sm" alt="instagram" />
+      </div>
+      <div>
+        <img src="images/facebook.png" class="p-6 max-w-sm" alt="facebook" />
+      </div>
+      <div>
+        <img src="images/twitter.png" class="p-6 max-w-sm" alt="twitter" />
+      </div>
+    </div>
+  </body>
+</html>
